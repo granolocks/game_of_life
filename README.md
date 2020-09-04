@@ -30,7 +30,7 @@ Usage: ./conway.rb -i SAMPLE_SEED.json -g 25 -s 12 -t test-run -a
 ### run and animate using a JSON seed file @ 25 generations:
 
 ```
-./conway.rb -i SAMPLE_SEED.json -g 25 -s 12 -t test-run -a
+./conway.rb -i seeds/pulsar.json -g 25 -s 12 -t pulsar -a
 ```
 
 ### run a 5000x5000 random simulation @ 3 generations with no animation:
