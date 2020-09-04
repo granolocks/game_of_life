@@ -1,5 +1,7 @@
 This is a very raw implentation of conways game of life in ruby. 
 
+This depends on `chunky_png` and `ffmpeg`. You can install chunky via `gem install chunky_png` and `ffmpeg` can be installed through most package managers on `-x` systems
+
 ```
 Usage: ./conway.rb -i SAMPLE_SEED.json -g 25 -s 12 -t test-run -a
     -t, --title TITLE                Title of Directory
