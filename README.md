@@ -9,7 +9,7 @@ something that isnt Ruby 😅 Also `chunky_png` could be replaced with something
 like OilyPNG to speed things up. 
 
 Additionally the actual specifications for the game of life should utilize an
-infinited sized board. This limits the board to the size specified and so cells
+infinite sized board. This limits the board to the size specified and so cells
 outside the edges of the seed array are considered 'dead' but can not be
 brought to life. 
 
@@ -33,7 +33,7 @@ Usage: ./conway.rb -i SAMPLE_SEED.json -g 25 -s 12 -t test-run -a
 ./conway.rb -i seeds/pulsar.json -g 25 -s 12 -t pulsar -a
 ```
 
-### run a 5000x5000 random simulation @ 3 generations with no animation:
+### run a 500x500 random simulation @ 3 generations with no animation:
 
 ```
 ./conway.rb -x 500 -y 500 -g 3 -t 500x500 
