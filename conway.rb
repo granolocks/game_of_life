@@ -174,7 +174,7 @@ else
   )
 end
 
-system("mkdir ./output/#{options[:title]}")
+system("mkdir -p ./output/#{options[:title]}")
 
 conway(
   options[:generations],
